@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Material Card</string>
+    <string name="title_placeholder">Title</string>
+    <string name="news_placeholder">News</string>
+    <string name="sports_info_placeholder">Here is some news</string>
+    <string name="description">Description</string>
+    <string name="name">Name:</string>
+    <string name="detail_text_here">detail_text_here</string>
+    <string name="hi">hello</string>
+    <string name="detail_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</string>
+
+
+    <string-array name="sports_titles">
+        <item>البيسبول</item>
+        <item>تنس الريشة</item>
+        <item>كرة سلة</item>
+        <item>البولينج</item>
+        <item>ركوب الدراجات</item>
+        <item>جولف</item>
+        <item>ادارة</item>
+        <item>كرة القدم</item>
+        <item>سباحة</item>
+        <item>تنس طاولة</item>
+        <item>تنس</item>
+    </string-array>
+
+    <string-array name="sports_info">
+        <item>هنا بعض أخبار البيسبول!</item>
+        <item>إليك بعض أخبار تنس الريشة!</item>
+        <item>إليك بعض أخبار كرة السلة!</item>
+        <item>إليك بعض أخبار البولينج!</item>
+        <item>إليك بعض أخبار ركوب الدراجات!</item>
+        <item>إليك بعض أخبار الجولف!</item>
+        <item>إليك بعض الأخبار الجارية!</item>
+        <item>إليك بعض أخبار كرة القدم!</item>
+        <item>إليك بعض أخبار السباحة!</item>
+        <item>إليك بعض أخبار تنس الطاولة!</item>
+        <item>إليك بعض أخبار التنس!</item>
+    </string-array>
+
+    <array name="sports_images">
+        <item>@drawable/img_baseball</item>
+        <item>@drawable/img_badminton</item>
+        <item>@drawable/img_basketball</item>
+        <item>@drawable/img_bowling</item>
+        <item>@drawable/img_cycling</item>
+        <item>@drawable/img_golf</item>
+        <item>@drawable/img_running</item>
+        <item>@drawable/img_soccer</item>
+        <item>@drawable/img_swimming</item>
+        <item>@drawable/img_tabletennis</item>
+        <item>@drawable/img_tennis</item>
+
+
+    </array>
+
+
+</resources>

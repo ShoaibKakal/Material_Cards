@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20sp"
+    android:id="@+id/item_card"
+
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/sportsImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/img_tennis" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@id/sportsImage"
+            android:layout_alignBottom="@id/sportsImage"
+            android:src="@drawable/ic_favorite_border_black_24dp"
+            />
+
+        <TextView
+            android:layout_alignBottom="@id/sportsImage"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:text="@string/title_placeholder"
+            android:padding="8dp"
+            style="@style/TextAppearance.AppCompat.Headline"/>
+        <TextView
+            android:textColor="?android:textColorSecondary"
+            android:layout_below="@id/sportsImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/newsTitle"
+            android:text="@string/news_placeholder"
+            android:padding="8dp"
+            style="@style/TextAppearance.AppCompat.Subhead" />
+        <TextView
+            android:layout_below="@id/newsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/subTitle"
+            android:text="@string/sports_info_placeholder"
+            android:padding="8dp"
+            style="@style/TextAppearance.AppCompat.Subhead" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
